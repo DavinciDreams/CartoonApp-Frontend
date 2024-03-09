@@ -6,7 +6,7 @@ import StoryRenderer from "./StoryRenderer.jsx";
 
 function App() {
   const [prompt, setPrompt] = useState(
-    "An astraunt alone in the vast universe"
+    "An astronaut alone in the vast universe"
   );
   const [character, setCharacter] = useState("John");
   const [genre, setGenre] = useState("Horror");
