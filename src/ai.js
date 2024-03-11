@@ -67,7 +67,7 @@ export default async function generateStory(
   return panels;
 }
 
-/*const resp = await generateStory(
+const resp = await generateStory(
   "An astronaut is stranded on a distant planet.",
   "John",
   {
@@ -84,4 +84,3 @@ for (let i = 0; i < resp.length; i++) {
   fs.writeFileSync(`panel_${i}.png`, buffer);
   console.log(resp[i].line);
 }
-*/
