@@ -123,10 +123,10 @@ function App() {
   };
 
   const renderResponse = () => {
-    return <StoryRenderer story={response} />;
+    //return <StoryRenderer story={response} />;
     return (
       <div>
-        <h1>Generated Panels</h1>
+        <h1>Fairy Tale Chat</h1>
         {response.map((panel, index) => (
           <div key={index} style={{ marginBottom: "20px" }}>
             <h3>Panel {index + 1}</h3>
